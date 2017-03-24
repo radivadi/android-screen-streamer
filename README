@@ -1,4 +1,12 @@
 Screen Streamer through adb (Android Debug Bridge) 
 
+
+1. Instala adb
+	sudo apt-get install adb
+
+2. conecta tu dispositivo (Con USB debugging activado)
+3. inicia la trasmision
+	bash  stream.sh
+
 Author:
 David Barros
