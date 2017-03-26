@@ -3,10 +3,15 @@ Screen Streamer through adb (Android Debug Bridge)
 
 1. Instala adb y mplayer
 	sudo apt-get install adb mplayer
+	sudo apt-get install gcc make
 
-2. conecta tu dispositivo (Con USB debugging activado)
-3. inicia la trasmision
-	bash  stream.sh
+2. Compilar yuv4mpeg_to_v4l2
+	make
+
+3. conecta tu dispositivo (Con USB debugging activado)
+	
+4. inicia la trasmision
+	make run
 
 Author:
 David Barros
